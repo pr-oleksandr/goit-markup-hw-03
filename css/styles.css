@@ -124,6 +124,8 @@ color: #404bbf;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        padding-top: 24px;
+            padding-bottom: 24px;
 }
 
 .header-contacts-link:hover {
@@ -133,7 +135,7 @@ color: #404bbf;
 .header-contacts-link:focus {
 color: #404bbf;
 }
-/* ==========MAIN============ */
+/* ==========HERO============ */
 
 .main-hero {
     background: #2e2f42;
@@ -181,6 +183,13 @@ font-weight: 500;
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
+/* ==========FEATURES============ */
+
+.features-title {
+    visibility: hidden;
+}
+
 .main-features-list {
     display: flex;
     gap: 24px;
@@ -210,6 +219,8 @@ font-weight: 500;
         letter-spacing: 0.02em;
         color: #434455;
 }
+
+/* ==========TEAM============ */
 
 .main-section-team {
     background: #f4f4fd;
@@ -264,6 +275,8 @@ font-weight: 500;
         color: #434455;
 }
 
+/* ==========PORTFOLIO============ */
+
 .main-section-portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -292,9 +305,8 @@ font-weight: 500;
 }
 
 .portfolio-cont {
-    border-bottom: 1px solid #e7e9fc;
-        border-left: 1px solid #e7e9fc;
-        border-right: 1px solid #e7e9fc;
+        border: 1px solid #e7e9fc;
+        border-top: none;
         padding: 32px 16px;
        
 }
