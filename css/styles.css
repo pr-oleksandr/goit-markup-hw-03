@@ -80,7 +80,7 @@ img {
 }
 
 .header-item {
-    padding: 24px 0;
+
 }
 
 .header-item-link {
@@ -91,7 +91,7 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
-    
+        padding: 24px 0;
 }
 
 .header-item-link:hover,
@@ -186,9 +186,19 @@ font-weight: 500;
 
 /* ==========FEATURES============ */
 
-.features-title {
-    visibility: hidden;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
+
 
 .main-features-list {
     display: flex;
@@ -244,10 +254,13 @@ font-weight: 500;
  gap: 24px;
 }
 
+.team-cont {
+    padding: 32px 0;
+}
+
 .team-list-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
-        padding: 0px 0px 32px 0px;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
            
 }
@@ -261,8 +274,7 @@ font-weight: 500;
         letter-spacing: 0.02em;
         color: #2e2f42;
         margin-bottom: 8px;
-        margin-top: 32px;
-    
+        text-align: center;
 
 }
 
@@ -273,6 +285,7 @@ font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        text-align: center;
 }
 
 /* ==========PORTFOLIO============ */
@@ -320,7 +333,6 @@ font-weight: 500;
         letter-spacing: 0.02em;
         color: #2e2f42;
         margin-bottom: 8px;
-        
 }
 
 .main-portfolio-list-text {
@@ -330,7 +342,6 @@ font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        
 }
 
 /* ==========FOOTER============ */
@@ -358,6 +369,7 @@ font-weight: 500;
 .footer-logo-span {
     color: #f4f4fd;
 }
+
 .footer-text {
         font-size: 16px;
     
