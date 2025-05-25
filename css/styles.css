@@ -42,6 +42,10 @@ img {
 
 /* ==========HEADER============ */
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-cont {
     display: flex;
     
@@ -72,12 +76,11 @@ img {
 
 .header-list {
     display: flex;
-    gap: 24px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    gap: 40px;
 }
 
 .header-item {
+    padding: 24px 0;
 }
 
 .header-item-link {
@@ -335,7 +338,8 @@ font-weight: 500;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
-    
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 
@@ -350,5 +354,4 @@ font-weight: 500;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         max-width: 264px;
-        margin-top: 16px;
 }
